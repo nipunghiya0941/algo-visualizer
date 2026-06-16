@@ -47,9 +47,7 @@ const Home = ({ setCurrentPage }) => {
         ))}
       </div>
 
-      <div className="max-w-5xl mx-auto text-center text-gray-600 text-xs">
-        Built with React + Vite + Tailwind CSS
-      </div>
+
     </div>
   );
 };
