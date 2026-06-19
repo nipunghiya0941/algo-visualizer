@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Visualizer from './pages/Visualizer';
+import Home from './pages/home';
+import Visualizer from './pages/visualizer';
 import RaceMode from './pages/RaceMode';
-import DPVisualizer from './pages/DPVisualizer';
+import DPVisualizer from './pages/DpVisualizer';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
