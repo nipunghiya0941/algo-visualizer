@@ -3,7 +3,11 @@ import Navbar from './components/Navbar';
 import Home from './pages/home';
 import Visualizer from './pages/visualizer';
 import RaceMode from './pages/RaceMode';
+<<<<<<< HEAD
 import DPVisualizer from './pages/DpVisualizer';
+=======
+import DpVisualizer from './pages/DpVisualizer';
+>>>>>>> db5f5f455e35bcd3402e46f9a0346cad4308af93
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
